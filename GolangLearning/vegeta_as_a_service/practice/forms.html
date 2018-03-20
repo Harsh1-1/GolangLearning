@@ -1,0 +1,14 @@
+{{if .Success}}
+	<h1>Attack Started!</h1>
+{{else}}
+	<h1>Contact</h1>
+	<form method="POST">
+		<label>Rate:</label><br />
+		<input type="text" name="rate"><br />
+		<label>Duration:</label><br />
+		<input type="text" name="duration"><br />
+		<label>Target:</label><br />
+		<input name="target"></input><br />
+		<input type="submit">
+	</form>
+{{end}}
